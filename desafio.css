@@ -4,20 +4,12 @@ body {
 
 /* Viewport Mobile */
 .container-header {
-  max-width: 375px;
   height: 54px;
   padding: 14px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #c4c4c4;
-}
-
-/* Media querie - Viewport Tablet  */
-@media (min-width: 376px) {
-  .container-header {
-    max-width: 720px;
-  }
 }
 
 /* Media querie - Viewport Desktop */
@@ -84,19 +76,12 @@ body {
   justify-content: center;
 }
 
-/* Media querie - Viewport Tablet */
-@media (min-width: 376px) {
-  .contaier-cuadrados-verdes {
-    max-width: 768px;
-  }
-}
 @media (min-width: 769px) {
   .contaier-cuadrados-verdes {
     width: 100%;
     grid-template-columns: repeat(3, 251px);
     grid-template-rows: 160px;
     align-content: center;
-    gap: 20px;
     height: 500px;
   }
 }
